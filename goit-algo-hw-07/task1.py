@@ -34,9 +34,9 @@ def main():
     root.right.left = TreeNode(12)
     root.right.right = TreeNode(18)
 
-    print("Максимальное значение:", find_max(root))
-    print("Минимальное значение:", find_min(root))
-    print("Сумма всех значений:", sum_values(root))
+    print("Максимальне значення:", find_max(root))
+    print("Мiнiмальне значення:", find_min(root))
+    print("Сумма всiх значень:", sum_values(root))
 
 
 if __name__ == "__main__":
